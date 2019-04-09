@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="label" max_length="40" name="option" type="collection">
+        <element label="New Audio" max_length="40" name="x_58872_needit_u_audio_2" type="audio"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="x_58872_needit_u_choice_1" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="x_58872_needit_u_choice_4" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" max_length="40" name="x_58872_needit_u_choice_6" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" max_length="40" name="x_58872_needit_u_choice_7" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="x_58872_needit_u_choice_8" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="x_58872_needit_u_choice_9" type="string">
+            <choice/>
+        </element>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="x_58872_needit_u_currency_5" type="currency"/>
+        <element label="New Data Structure" max_length="800" name="x_58872_needit_u_data_structure_7" type="data_structure"/>
+        <element label="New Due Date" max_length="40" name="x_58872_needit_u_due_date_9" type="due_date"/>
+        <element label="New Date/Time" max_length="40" name="x_58872_needit_u_glide_date_time_1" type="glide_date_time"/>
+        <element label="When needed" max_length="40" name="x_58872_needit_u_glide_date_time_2" type="glide_date_time"/>
+        <element label="New Date/Time" max_length="40" name="x_58872_needit_u_glide_date_time_3" type="glide_date_time"/>
+        <element label="New Date/Time" max_length="40" name="x_58872_needit_u_glide_date_time_8" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="x_58872_needit_u_glide_duration_10" type="glide_duration"/>
+        <element label="New Reference" max_length="32" name="x_58872_needit_u_reference_4" reference="x_58872_needit_needit" type="reference"/>
+        <element label="Requested for" max_length="32" name="x_58872_needit_u_requested_for" reference="x_58872_needit_needit" type="reference"/>
+    </element>
+</database>
